@@ -78,3 +78,56 @@ Date: 2026-08-01
 
 Exact next portfolio action: use the mandatory new-project template and choose
 the next distinct coverage gap from the breadth-first plan.
+
+## Technique-ceiling dossier closure — 2026-08-04
+
+- Research exit gate: `PASS`; Website Assistant experiment/technique-ceiling
+  gate remains `PARTIAL` because W0-W4 were designed but not run.
+- Isolated worktree:
+  `portfolio_demos/worktrees/website_assistant_technique_dossier`.
+- Branch: `agent/website-assistant-technique-dossier`, based on clean Website
+  Assistant `main` commit `fd41ec4ec078169f9db0e05c7838cd88f1ee7e24`.
+- Dossier commit: `51839cc7447854ae24225b91c034191d176bcf3a`.
+- Required artifacts: `TECHNIQUE_TAXONOMY.md`, `EVIDENCE_MATRIX.csv`,
+  `GITHUB_IMPLEMENTATION_AUDIT.md`, `BENCHMARK_DESIGN.md`,
+  `RESEARCH_DECISION.md`, and `docs/EXPERTISE_NOTES.md`.
+- Evidence gate: all eleven systematic research rows are `PASS`; the matrix
+  imports as 18 candidates; iterations 8 and 9 are consecutive no-new-family
+  expansions; local code/test references resolve; `git diff --check` passes.
+- GitHub/component-first result: retain Deep Chat and the host/embed contracts;
+  reuse Readability/Playwright/Crawlee where routed and Atlas for indexing/
+  retrieval. A second crawler, browser driver, RAG stack, universal extractor,
+  default visual model and DOM-sanitizer-as-prompt-defense were rejected.
+- Expertise disposition: central cards **Route website extraction by page
+  behavior**, **Treat external content as data, not authority**, and **Test
+  citation freshness separately from citation presence** were added to
+  `UPWORK_EXPERTISE_INDEX.md`. Multi-page composition and visual-routing notes
+  explicitly reuse existing integration/retrieval cards rather than add
+  duplicate retrieval paths.
+- Verification after clean `npm ci`: `npm run lint` passed; `npm test` passed
+  12 Vitest cases, a five-stage Vinext production build, and 3 rendered-HTML
+  Node tests. The matrix imports as 18 candidates and `git diff --check`
+  passes.
+- Verification diagnostic: the first invocation before `npm ci` could not find
+  local `eslint`/`vitest` executables and did not execute tests; the fail-fast
+  clean-install rerun above is the valid result.
+- Dependency limitation: `npm audit --omit=dev` reports three production high-
+  severity dependency findings through pinned Next 16.2.6 (Next, bundled
+  PostCSS and Sharp) with an available Next 16.3.0 update. This research-only
+  slice did not change dependencies; a future implementation/maintenance slice
+  must upgrade and rerun build/API/security tests before deployment.
+- Decision: semantic owner markup is the fast control. W0 corpus/scorer
+  reconciliation is the exact first future work; W1 compares raw, semantic,
+  Readability, broad/HTML-aware and static/rendered paths. W2-W4 remain gated.
+- Remaining product limitations are unchanged: no diverse-page extraction or
+  answer benchmark, SPA/multi-page crawl, English/Lithuanian quality result,
+  freshness SLA, injection-prevention claim, durable handoff worker,
+  distributed rate limit, authentication/tenant boundary, analytics, named
+  integration, production traffic, or client outcome.
+- Scope stopped before: benchmark implementation/execution, crawl, browser or
+  provider run, application/dependency code, visual polish, merge, push,
+  deployment, or a new project.
+- Exact next cross-portfolio action: complete order item 4, the joint
+  DeliveryGuard + AdapterProof + PipelineForge systematic dossiers, each in an
+  isolated worktree. Do not start Website Assistant W0 from this checkpoint.
+  ContextSidecar was not inspected or used and remains outside this stream.

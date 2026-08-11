@@ -3,8 +3,7 @@
 Date: 2026-08-04
 
 Purpose: reuse maintained acquisition, extraction, security and UI components
-before writing substantial custom logic. Licenses are intentionally ignored by
-portfolio policy; adoption is based on fit, maintenance and integration cost.
+before writing substantial custom logic. Adoption is based on fit, maintenance and integration cost.
 
 ## Current seams
 

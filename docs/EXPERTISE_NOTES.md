@@ -1,5 +1,7 @@
 # Website Assistant expertise notes
 
+**Verification:** [claim-to-artifact map and rerun commands](https://sutasmantas.github.io/evidence/#switchback) · [machine-readable receipt](https://sutasmantas.github.io/evidence/receipt.json)
+
 Date: 2026-08-04
 
 No local technique comparison was run. These notes distinguish externally

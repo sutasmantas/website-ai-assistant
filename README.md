@@ -1,5 +1,7 @@
 # Switchback website assistant
 
+**Verification:** [claim-to-artifact map and rerun commands](https://sutasmantas.github.io/evidence/#switchback) · [machine-readable receipt](https://sutasmantas.github.io/evidence/receipt.json)
+
 A website-assistant integration that embeds with one script, passes bounded
 current-page context, streams cited answers through an Atlas-compatible
 contract, declines unsupported questions, and sends consented leads through an
